@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jobapplication.PersonalInfoTests">
+      <class name="Mockaroo.MockarooDataValidation">
         <methods>
-          <include name="mailCheck"/>
+          <include name="file"/>
           <include name="setUp"/>
-          <include name="navigateToHomePage"/>
+          <include name="longestCity"/>
         </methods>
-      </class> <!-- com.jobapplication.PersonalInfoTests -->
+      </class> <!-- Mockaroo.MockarooDataValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
